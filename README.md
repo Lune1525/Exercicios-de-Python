@@ -5,7 +5,9 @@ Ex 45 - Jokenpo (Curso em vídeo do Gustavo Guanabara)
 import random
 from random import randint
 from time import sleep
+
 opçoes = ('[0] pedra', '[1] papel', '[2] tesoura')
+
 while True:	
 	j = int(input('Escolha: [0] pedra, [1] papel, [2] tesoura '))
 	if j > 2:
@@ -23,7 +25,9 @@ while True:
 	print('==' * 30)
 	c = random.randint(0, 2)
 	print(f'Você jogou {opçoes[j]}')
-	print(f'O computador jogou {opçoes[c]}')	
+	print(f'O computador jogou {opçoes[c]}')
+
+	
 	if j == c:
 		print('==' * 30)
 		print('Empate')
@@ -52,6 +56,7 @@ while True:
 	 	 print('==' * 30)
 	 	 print('Jogada invalida!')
 	print('==' * 30)
+
 	nov = str(input('Gostaria de tentar novamente? [S/N] ')).upper().strip()[0]
 	print('==' * 30)
 	if nov not in 'SN':
