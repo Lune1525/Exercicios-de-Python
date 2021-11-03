@@ -1,4 +1,6 @@
-Exercicios de Python
+Exercicio favorito de Python até o momento, primeiro código que escrevi foi usando apenas o If, esse eu aprimorei com o While.
+
+Ex 45 - Jokenpo (Curso em vídeo do Gustavo Guanabara)
 
 import random
 from random import randint
